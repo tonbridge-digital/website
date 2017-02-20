@@ -1,5 +1,13 @@
 [
 
+  
+    {
+      "title"			: "Launch!",
+      "link"			: "/articles/launch/",
+      "excerpt"		: "Introductory speech ahead of launching Tonbridge Digital"
+    }
+  
+
 
 
   
@@ -13,6 +21,14 @@
       "title"			: "Championing the digital economy in Tonbridge",
       "link"			: "/about/",
       "excerpt"		: "An overview of who we are"
+    }
+  
+
+  
+    ,{
+      "title"			: "Contact",
+      "link"			: "/contact/",
+      "excerpt"		: "Details for contacting Tonbridge Digital"
     }
   
 

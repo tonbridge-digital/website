@@ -11,8 +11,6 @@ image:
 
 Tonbridge is located in the heart of West Kent with a thriving town thanks to a wide range of retail, leisure and residential options for a range of budgets.
 
-What makes up the digital economy in Tonbridge are
-
 We are here to help promote and bring together small businesses and individuals throughout Tonbridge looking to embrace a digital strategy going forward. We organise social events and this website as a platform to communicate what's happening here:
 
 * Businesses and individuals with an online presence
