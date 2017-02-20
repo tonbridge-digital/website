@@ -53,7 +53,7 @@ owner:
   google:
     plus: #username
     analytics:
-    verify: google-site-verification=YKzWp1WgDCKKqRBWsfSRMIUNtR7X9kGU5iValMXAkk0
+    verify:
     ad-client:
     ad-slot:
   bing-verify:
