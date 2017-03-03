@@ -5,18 +5,23 @@
 .navigation-wrapper {
   text-align: center;
   @include clearfix;
+  position: relative;
+  z-index: 2;
+  background-color: $td;
 
   ul {
     display: inline-block;
-    width: 100%;
+    //width: 100%;
     vertical-align: top;
-    margin: 0 0 50px;
+    margin: 0;
     padding: 4px 20px;
     background-color: $td;
 
     @include media($medium) {
       width: auto;
       @include rounded(0 0 10px 10px);
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
     @include clearfix;
@@ -27,12 +32,12 @@
     float: left;
     list-style: none;
     text-align: center;
-    @include font-size(24,no);
-    text-transform: uppercase;
+    @include font-size(14,no);
     color: $white;
+    font-weight: 600;
 
     @include media($medium) {
-      @include font-size(14,no);
+      @include font-size(18,no);
     }
 
     a:hover {
@@ -43,11 +48,9 @@
 
   a {
     display: block;
-    margin-bottom: 10px;
-    padding: 12px 20px;
+    padding: 12px 10px;
 
     @include media($medium) {
-      margin-bottom: 0;
       padding: 6px 10px;
     }
 

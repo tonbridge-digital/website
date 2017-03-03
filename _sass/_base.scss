@@ -22,6 +22,12 @@
    Body
    ========================================================================== */
 
+html, body {
+	height: 100%;
+	height: 100vh;
+	position: relative;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -29,8 +35,10 @@ body {
   font-family: $base-font;
   color: $text-color;
   background-color: $body-color;
-  border-top: 5px solid $white;
+  //border-top: 5px solid $white;
 }
+
+
 
 /*
    Typography

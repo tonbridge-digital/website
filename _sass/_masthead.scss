@@ -2,28 +2,45 @@
    Masthead
    ========================================================================== */
 
-.masthead {
-  margin-top: 40px;
-  @include clearfix;
+  .masthead {
+    @include clearfix;
+    z-index: 2;
+    position: relative;
+    background-image: url(../../images/tonbridge.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+    animation: fadeIn 1.5s ease-in;
 
-  @include media($medium) {
+    div {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(35, 35, 35, 0.5);
+    }
+
+
+    @include media($medium) {
     margin-top: 0;
-  }
+    }
 
   .wrap {
     text-align: center;
-    max-width: em(440);
+    //max-width: em(440);
     padding-right: 20px;
     padding-left: 20px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 
     @include media($medium) {
-      max-width: em(728);
+      //max-width: em(728);
       padding-right: 60px;
       padding-left: 60px;
     }
 
     @include media($large) {
-      max-width: em(960);
+      //max-width: em(960);
     }
   }
 }
