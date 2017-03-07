@@ -2,12 +2,21 @@
 
 - title: About
   url: /about/
+  type: nav-normal
 
 - title: Articles
   url: /articles/
+  type: nav-normal
+
+
+- title: Home
+  url: /
+  type: nav-home
 
 - title: Search
   url: /search/
+  type: nav-normal
 
 - title: Contact
   url: /contact/
+  type: nav-normal
