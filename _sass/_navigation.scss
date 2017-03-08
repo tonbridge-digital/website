@@ -53,7 +53,10 @@
         background-size: 90% auto;
         background-position: 50% 50%;
         display: block;
-        width: 60px;
+        width: 30px;
+        @include media($medium) {
+          width: 60px;
+        }
         height: 45px;
         padding: 0;
 

@@ -48,10 +48,6 @@
     font-size: 1.2rem;
     font-family: $heading-font;
     text-rendering: optimizeLegibility; // Fix the character spacing for headings
-    padding: 0 10%;
-    @include media($large) {
-      padding: 0 30%;
-    }
   }
 }
 
