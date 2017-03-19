@@ -84,11 +84,10 @@
     color: $white;
     @include rounded(4px);
 
-    &:hover {
+    &:hover, &:focus, &:active {
       color: #fff;
       border: none;
       text-decoration: underline;
-      //background-color: lighten($white, 10);
     }
   }
 }
