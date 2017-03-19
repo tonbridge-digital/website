@@ -21,7 +21,7 @@ sitemap: false
 @import "grid-settings"; /* Bourbon Neat settings */
 @import "vendor/neat/neat"; /* Bourbon Neat grid mixins (neat.bourbon.io) */
 @import "vendor/font-awesome/font-awesome"; /* Font Awesome icons */
-@import "vendor/magnific-popup/magnific-popup"; /* Magnific Popup lightbox */
+//@import "vendor/magnific-popup/magnific-popup"; /* Magnific Popup lightbox */
 
 /*
    Global
@@ -37,7 +37,7 @@ sitemap: false
 
 @import "helpers";
 @import "buttons";
-@import "wells";
+//@import "wells";
 @import "syntax";
 @import "forms";
 @import "notices"; /* notices and alerts */
