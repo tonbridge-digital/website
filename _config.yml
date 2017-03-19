@@ -5,7 +5,7 @@ locale: en_GB
 description: Promoting the digital economy in Tonbridge through meetups, discussion and networking
 logo: logo.svg
 search: true
-url: https://www.tonbridge.digital
+# url: https://www.tonbridge.digital
 
 # Jekyll configuration
 
