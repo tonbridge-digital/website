@@ -85,7 +85,9 @@
     @include rounded(4px);
 
     &:hover {
-      color: $td;
+      color: #fff;
+      border: none;
+      text-decoration: underline;
       //background-color: lighten($white, 10);
     }
   }
