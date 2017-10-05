@@ -15,6 +15,6 @@ share: true
 
 Our next social event will be on <strong>November 28th 2017</strong>. We'd love to bring together small businesses and individuals throughout Tonbridge looking to chat about all aspects of their digital strategy. Whether you're working in technology, the Web or a complete novice/outsider looking for advice then please come along.
 
-Join us for discussion and drinks from 20:00-23:00 at <strong>Ye Olde Chequers Inn on Tonbridge High Street</strong>.
+Join us for discussion and drinks from 20:00-23:00 at <strong>[Ye Olde Chequers Inn](https://www.facebook.com/yeoldechequersinn/)</strong> on Tonbridge High Street.
 
 Look out for [Calum](https://calumryan.com) or [James](https://twitter.com/shutdownscanner).
