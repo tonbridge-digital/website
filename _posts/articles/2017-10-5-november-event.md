@@ -1,7 +1,7 @@
 ---
 layout: post
 title: November Social
-excerpt: "Our next social event will be on November 28th at Ye Olde Chequers Inn"
+excerpt: "Our next social event will be on November 23rd at Ye Olde Chequers Inn"
 modified: 2017-10-05T19:00:00-04:00
 categories: articles
 tags: [general]
@@ -13,7 +13,7 @@ comments: false
 share: true
 ---
 
-Our next social event will be on <strong>November 28th 2017</strong>. We'd love to bring together small businesses and individuals throughout Tonbridge looking to chat about all aspects of their digital strategy. Whether you're working in technology, the Web or a complete novice/outsider looking for advice then please come along.
+Our next social event will be on <strong>November 23rd 2017</strong>. We'd love to bring together small businesses and individuals throughout Tonbridge looking to chat about all aspects of their digital strategy. Whether you're working in technology, the Web or a complete novice/outsider looking for advice then please come along.
 
 Join us for discussion and drinks from 20:00-23:00 at <strong>[Ye Olde Chequers Inn](https://www.facebook.com/yeoldechequersinn/)</strong> on Tonbridge High Street.
 
