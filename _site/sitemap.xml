@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/articles/launch/</loc>
-<lastmod>2017-02-20T00:00:00+01:00</lastmod>
+<loc>https://tonbridge.digital/articles/november-event/</loc>
+<lastmod>2017-10-05T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>/</loc>
+<loc>https://tonbridge.digital/articles/launch/</loc>
+<lastmod>2017-02-20T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>/blog/</loc>
+<loc>https://tonbridge.digital/</loc>
 </url>
 <url>
-<loc>/about/</loc>
+<loc>https://tonbridge.digital/about/</loc>
 </url>
 <url>
-<loc>/contact/</loc>
+<loc>https://tonbridge.digital/blog/</loc>
 </url>
 <url>
-<loc>/articles/</loc>
+<loc>https://tonbridge.digital/tags/</loc>
 </url>
 <url>
-<loc>/tags/</loc>
+<loc>https://tonbridge.digital/contact/</loc>
+</url>
+<url>
+<loc>https://tonbridge.digital/articles/</loc>
 </url>
 </urlset>

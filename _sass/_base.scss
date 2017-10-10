@@ -8,15 +8,14 @@
 
 ::-moz-selection {
 	background-color: lighten($base-color, 65%);
-	color: $base-color;
+	color: #000;
 	text-shadow: none;
 }
 ::selection {
 	background-color: lighten($base-color, 65%);
-	color: $base-color;
+	color: #000;
 	text-shadow: none;
 }
-
 
 /*
    Body
@@ -242,7 +241,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 // Access and presentation
 // ---------------------------------------------------
 
-.visuallyhidden { 
+.visuallyhidden {
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
