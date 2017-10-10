@@ -7,12 +7,12 @@
    ========================================================================== */
 
 ::-moz-selection {
-	background-color: #FFF;
+	background-color: $td;
 	color: #000;
 	text-shadow: none;
 }
 ::selection {
-	background-color: #FFF;
+	background-color: $td;
 	color: #000;
 	text-shadow: none;
 }
