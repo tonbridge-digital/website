@@ -45,7 +45,7 @@
               {% endcase %}
               {{ page.e-start | date: "of %B" }},
               {{ page.e-start | date: "%R" }}</time>
-            to <time class="dt-end" datetime="{{ page.efinish | date: "%m-%d-%Y" }}">{{ page.e-finish | date: "%R" }}</time>
+            to <time class="dt-end" datetime="{{ page.e-finish | date: "%m-%d-%Y %R" }}">{{ page.e-finish | date: "%R" }}</time>
             at <span class="p-location">{{ page.location }}</span></strong></p>
           <p class="p-summary">{{ page.summary }}</p>
         </div>
