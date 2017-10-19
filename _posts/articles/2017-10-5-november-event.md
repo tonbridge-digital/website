@@ -19,3 +19,5 @@ share: true
 Join us for discussion and drinks at <strong>[Ye Olde Chequers Inn](https://www.facebook.com/yeoldechequersinn/)</strong> on Tonbridge High Street.
 
 Look out for [Calum](https://calumryan.com) or [James](https://twitter.com/shutdownscanner).
+
+[Register](https://www.eventbrite.co.uk/e/tonbridge-digital-tickets-38759617058) if you're able to attend
