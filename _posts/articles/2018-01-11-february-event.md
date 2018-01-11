@@ -7,8 +7,8 @@ modified: 2018-01-11T19:00:00-04:00
 categories: articles
 tags: [general]
 location: "Ye Olde Chequers Inn"
-e-start: 2018-01-08T20:00:00-00:00
-e-finish: 2018-01-08T22:00:00-00:00
+e-start: 2018-02-08T20:00:00-00:00
+e-finish: 2018-02-08T22:00:00-00:00
 image:
   feature:
   credit:
