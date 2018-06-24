@@ -4,6 +4,7 @@ title: June Social
 excerpt: "Our next social event will be on June 28th at The Clock House Tapas and Bar"
 summary: "We'd love to bring together small businesses and individuals throughout Tonbridge looking to chat about all aspects of their digital strategy. Whether you're working in technology, the Web or a complete novice/outsider looking for advice then please come along."
 categories: articles
+modified: 2018-06-24T10:00:00-04:00
 tags: [general]
 location: "The Clock House Tapas and Bar"
 e-start: 2018-06-28T19:00:00-00:00
