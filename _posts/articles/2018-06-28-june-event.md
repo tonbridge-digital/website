@@ -16,7 +16,7 @@ image:
 comments: false
 share: true
 ---
-Join us for discussion and drinks at <strong>[Ye Olde Chequers Inn](https://www.facebook.com/TheClockHouseTonbridge/)</strong> on Tonbridge High Street.
+Join us for discussion and drinks at **[Ye Olde Chequers Inn](https://www.facebook.com/TheClockHouseTonbridge/)** on Tonbridge High Street.
 
 Look out for [Calum](https://calumryan.com) or [James](https://twitter.com/shutdownscanner).
 
