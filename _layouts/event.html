@@ -52,7 +52,7 @@
 
         {{content}}
 
-        <p>{{ site.webmentions_text }} <pre>{{ page.webmention }}</pre>.</p>
+        <p>{% include webmention-info.html %} <strong class="webmention-target">{{ page.webmention }}</strong></p>
 
         {% webmention_rsvps page.url %}
 

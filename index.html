@@ -30,7 +30,7 @@ logo: true
 
   <div class="event-highlight__overview">
   {{ post.content }}
-  <p>{{ site.webmentions_text }} <pre>{{ page.webmention }}</pre>.</p>
+  <p>{% include webmention-info.html %} <strong class="webmention-target">{{ post.webmention }}</strong></p>
   </div>
 
   {% webmention_rsvps post.webmention %}

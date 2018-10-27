@@ -65,7 +65,10 @@
 <link rel="mask-icon" href="http://localhost:4000/images/favicon/safari-pinned-tab.svg" color="#870354">
 <meta name="theme-color" content="#870354">
 
-<link rel="dns-prefetch" href="https://webmention.io"><link rel="preconnect" href="https://webmention.io"><link rel="preconnect" href="ws://webmention.io:8080">
+<link rel="pingback" href="https://webmention.io/tonbridge.digital/xmlrpc" />
+<link rel="webmention" href="https://webmention.io/tonbridge.digital/webmention" />
+
+<link rel="dns-prefetch" href="https://webmention.io"><link rel="preconnect" href="https://webmention.io"><link rel="preconnect" href="ws://webmention.io:8080"><link rel="pingback" href="https://webmention.io/tonbridge.digital/xmlrpc"><link rel="webmention" href="https://webmention.io/tonbridge.digital/webmention">
 </head>
 
 <body id="page">
@@ -125,14 +128,14 @@
 
 <span>&copy; 2018 Tonbridge Digital</span>
 <div class="social-icons">
-	<a href="https://twitter.com/tonbridigital" title="Calum Ryan on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+	<a rel="me noopener" href="https://twitter.com/tonbridigital" title="Calum Ryan on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
 	
 	
 	
 	
 	
 	
-	
+	<a rel="me noopener" href="https://github.com/tonbridgedigital" title="Calum Ryan on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
 	
   
 	
@@ -284,23 +287,22 @@
     <p class="webmentions__not-found">No reposts were found.</p>
   {% endif %}
 </div></template><template style="display:none" id="webmention-rsvps"><div class="webmentions webmentions--rsvps">
-  {% if webmentions.size > 0 %}
+    {% if webmentions.size > 0 %}
     <ol class="webmentions__list">
-      {% for webmention in webmentions %}
+        {% for webmention in webmentions %}
         <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
-          <div class="webmention__author p-author h-card">
-            <a class="u-url" href="{{ webmention.author.url }}">
-              <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="Avatar for {{ webmention.author.name }}" title="{{ webmention.author.name }}">
-              <b class="p-name">{{ webmention.author.name }}</b>
-              {{ webmention.content }}
-            </a>
-          </div>
+            <div class="webmention__author p-author h-card">
+                <a class="u-url" href="{{ webmention.author.url }}">
+                    <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="Avatar for {{ webmention.author.name }}"
+                        title="{{ webmention.author.name }}">
+                </a>
+            </div>
         </li>
-      {% endfor %}
+        {% endfor %}
     </ol>
-  {% else %}
+    {% else %}
     <p class="webmentions__not-found">No RSVPs were found.</p>
-  {% endif %}
+    {% endif %}
 </div></template><template style="display:none" id="webmention-count">{% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
 <span class="webmention-count"{% unless webmention_types=="" %} data-webmention-types="{{ webmention_types }}"{% endunless %}>{{ count }}</span></template><template style="display:none" id="webmention-webmentions">{% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
 <div class="webmentions"{% unless webmention_types=="" %} data-webmention-types="{{ webmention_types }}"{% endunless %}>
