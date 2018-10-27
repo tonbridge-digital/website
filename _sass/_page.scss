@@ -137,6 +137,26 @@ span + .entry-title {
 	}
 }
 
+
+.p-location {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: flex-start;
+
+
+	svg {
+		margin-top: auto;
+		margin-bottom: auto;
+		display: inline-block;
+		margin-right: 5px;
+		path {
+			fill: #FFF;
+		}
+	}
+}
+
 /* author avatar (circular) */
 
 .bio-photo {
@@ -204,6 +224,70 @@ span + .entry-title {
 		&:hover {
 			border-bottom-style: solid;
 		}
+	}
+}
+
+.event-highlight {
+    font-size: 20px;
+    line-height: 1.6;
+    border-bottom: 5px solid #FFF;
+    padding-bottom: 30px;
+    align-content: flex-start;
+    background: #870354;
+    border-radius: 15px;
+    padding: 20px;
+
+	.p-time, .p-location {
+		margin-top: 0;
+		margin-bottom: 30px;
+		font-size: 22px;
+		display: flex;
+		flex-flow: column wrap;
+		padding: 0 10px;
+		text-align: center;
+	}
+
+	svg {
+		display: block;
+		margin: auto auto 10px auto;
+
+		path {
+			fill: #FFF;
+		}
+
+		&:not(:root) {
+			overflow: visible;
+		}
+
+	}
+
+	h2 {
+		margin-top: 0;
+		margin-bottom: 15px;
+		text-align: center;
+		font-size: 22px;
+		font-weight: 400;
+	}
+
+	h3 {
+		line-height: 1;
+		font-size: 40px;
+		margin: 0 0 25px 0;
+		text-align: center;
+	}
+
+}
+
+.event-highlight__meta {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.event-highlight__overview {
+	p {
+		font-size: 22px;
 	}
 }
 

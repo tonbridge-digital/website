@@ -11,7 +11,7 @@
 
 {% include navigation.html %}
 
-<div id="main" role="main">
+<main id="main" role="main">
   <article class="hentry">
     {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Image credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>{% endif %}{% endif %}
     <div class="entry-wrapper">
@@ -58,7 +58,7 @@
       {% endif %}
     </nav><!-- /.pagination -->
   </article>
-</div><!-- /#main -->
+</main><!-- /#main -->
 
 <div class="footer-wrapper">
   <footer role="contentinfo" class="entry-wrapper">
