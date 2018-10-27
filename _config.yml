@@ -59,6 +59,8 @@ owner:
     ad-slot:
   bing-verify:
 
+webmentions_text: "We now support <a href="https://indieweb.org/Webmention" rel="noopener" target="_blank">Webmentions</a> for RSVP-ing to our events. You can optionally submit a reply to say your attending at the following URL:"
+
 webmentions:
   username: tonbridge.digital
   cache_folder: .cache
