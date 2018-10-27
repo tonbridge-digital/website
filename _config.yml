@@ -58,3 +58,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+
+webmentions:
+  username: tonbridge.digital
+  cache_folder: .cache
+  cache_bad_uris_for: 5
+  templates:
+    rsvps: _includes/webmentions/rsvps.html

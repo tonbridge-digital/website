@@ -9,6 +9,7 @@ tags: [general]
 location: "The Foresters Arms"
 e-start: 2018-11-27T19:00:00-00:00
 e-finish: 2018-11-27T21:00:00-00:00
+webmention: "https://tonbridge.digital/articles/november-event/"
 image:
   feature:
   credit:
