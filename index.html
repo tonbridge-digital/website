@@ -30,7 +30,7 @@ logo: true
 
   <div class="event-highlight__overview">
   {{ post.content }}
-  <p>We now support Webmentions for RSVP-ing to our events. You can optionally submit a Webmention to {{ post.url }} to show that you're attending below.</p>
+  <p>We now support Webmentions for RSVP-ing to our events. You can optionally submit a Webmention to {{ site.url }}{{ post.url }} to show that you're attending below.</p>
   </div>
 
   {% webmention_rsvps post.url %}
