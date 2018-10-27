@@ -3,7 +3,7 @@
   
     {
       "title"			: "November Social",
-      "link"			: "http://localhost:4000/articles/november-event/",
+      "link"			: "https://tonbridge.digital/articles/november-event/",
       "excerpt"		: "Our next social event will be on November 25th at The Foresters Arms"
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "September Social",
-      "link"			: "http://localhost:4000/articles/september-event/",
+      "link"			: "https://tonbridge.digital/articles/september-event/",
       "excerpt"		: "Our next social event will be on September 25th at The Nelson Arms"
     }
   
@@ -19,7 +19,7 @@
   
     ,{
       "title"			: "August Social",
-      "link"			: "http://localhost:4000/articles/august-event/",
+      "link"			: "https://tonbridge.digital/articles/august-event/",
       "excerpt"		: "Our next social event will be on August 28th at The Nelson Arms"
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "July Social",
-      "link"			: "http://localhost:4000/articles/july-event/",
+      "link"			: "https://tonbridge.digital/articles/july-event/",
       "excerpt"		: "Our next social event will be on July 31st at The Nelson Arms"
     }
   
@@ -35,7 +35,7 @@
   
     ,{
       "title"			: "June Social",
-      "link"			: "http://localhost:4000/articles/june-event/",
+      "link"			: "https://tonbridge.digital/articles/june-event/",
       "excerpt"		: "Our next social event will be on June 28th at The Clock House Tapas and Bar"
     }
   
@@ -43,7 +43,7 @@
   
     ,{
       "title"			: "February Social",
-      "link"			: "http://localhost:4000/articles/february-event/",
+      "link"			: "https://tonbridge.digital/articles/february-event/",
       "excerpt"		: "Our next social event will be on February 8th at Ye Olde Chequers Inn"
     }
   
@@ -51,7 +51,7 @@
   
     ,{
       "title"			: "November Social",
-      "link"			: "http://localhost:4000/articles/november-event/",
+      "link"			: "https://tonbridge.digital/articles/november-event/",
       "excerpt"		: "Our next social event will be on November 23rd at Ye Olde Chequers Inn"
     }
   
@@ -59,7 +59,7 @@
   
     ,{
       "title"			: "Launch!",
-      "link"			: "http://localhost:4000/articles/launch/",
+      "link"			: "https://tonbridge.digital/articles/launch/",
       "excerpt"		: "Introductory speech ahead of launching Tonbridge Digital"
     }
   
@@ -73,7 +73,7 @@
   
     ,{
       "title"			: "Championing the digital economy in Tonbridge",
-      "link"			: "http://localhost:4000/about/",
+      "link"			: "https://tonbridge.digital/about/",
       "excerpt"		: "An overview of who we are"
     }
   
@@ -87,7 +87,7 @@
   
     ,{
       "title"			: "Contact",
-      "link"			: "http://localhost:4000/contact/",
+      "link"			: "https://tonbridge.digital/contact/",
       "excerpt"		: "Details for contacting Tonbridge Digital"
     }
   
