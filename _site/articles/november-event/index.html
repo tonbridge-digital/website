@@ -152,7 +152,7 @@
 <p><a href="https://www.meetup.com/Tonbridge-Digital/events/255615322/">Register</a> on our Meetup page.</p>
 
 
-        <p>We now support <a href="https://indieweb.org/Webmention" rel="noopener" target="_blank">Webmentions</a> for RSVP-ing to our events. You can optionally submit a reply to say your attending at the following target URL: <strong class="webmention-target">https://tonbridge.digital/articles/november-event/</strong></p>
+        <p>We now support <a href="https://indieweb.org/Webmention" rel="noopener" target="_blank">Webmentions</a> for RSVP-ing to our events. You can optionally submit a reply to say you're attending at the following target URL: <strong class="webmention-target">https://tonbridge.digital/articles/november-event/</strong></p>
 
         
 
@@ -212,11 +212,11 @@
           </div>
           <div class="webmention__meta">
             {% if webmention.author %}
-              <a class="webmention__author h-card u-url" href="{{ webmention.author.url }}">{{ webmention.author.name }}</a>
+              <a class="webmention__author h-card u-url" href="{{ webmention.author.url }}" rel="nofollow">{{ webmention.author.name }}</a>
             {% endif %}
             {% if webmention.pubdate and webmention.url %}on{% endif %}
             {% if webmention.pubdate %}
-              <a class="webmention__source u-url" href="{{ webmention.url }}">
+              <a class="webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">
                 <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
               </a>
             {% endif %}
@@ -233,7 +233,7 @@
       {% for webmention in webmentions %}
         <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
           <div class="webmention__author p-author h-card">
-            <a class="u-url" href="{{ webmention.author.url }}">
+            <a class="u-url" href="{{ webmention.author.url }}" rel="nofollow">
               <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="" title="{{ webmention.author.name }}">
             </a>
           </div>
@@ -253,11 +253,11 @@
           </div>
           <div class="webmention__meta">
             {% if webmention.author %}
-              <a class="webmention__author h-card u-url" href="{{ webmention.author.url }}">{{ webmention.author.name }}</a>
+              <a class="webmention__author h-card u-url" href="{{ webmention.author.url }}" rel="nofollow">{{ webmention.author.name }}</a>
             {% endif %}
             {% if webmention.pubdate and webmention.url %}on{% endif %}
             {% if webmention.pubdate %}
-              <a class="webmention__source u-url" href="{{ webmention.url }}">
+              <a class="webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">
                 <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
               </a>
             {% endif %}
@@ -273,7 +273,7 @@
     <ol class="webmentions__list">
       {% for webmention in webmentions %}
         <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
-          <a class="webmention__title webmention__source u-url" href="{{ webmention.url }}">{{ webmention.title }}</a>
+          <a class="webmention__title webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">{{ webmention.title }}</a>
           <div class="webmention__meta">
             {% if webmention.pubdate %}
               <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
@@ -295,7 +295,7 @@
           </div>
           <div class="webmention__meta">
             {% if webmention.author %}
-              <a class="webmention__author h-card u-url" href="{{ webmention.author.url }}">
+              <a class="webmention__author h-card u-url" href="{{ webmention.author.url }}" rel="nofollow">
                 {% if webmention.author.photo %}
                   <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="" title="{{ webmention.author.name }}">
                 {% endif %}
@@ -304,7 +304,7 @@
             {% endif %}
             {% if webmention.pubdate and webmention.author %}on{% endif %}
             {% if webmention.pubdate %}
-              <a class="webmention__source u-url" href="{{ webmention.url }}">
+              <a class="webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">
                 <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
               </a>
             {% endif %}
@@ -321,7 +321,7 @@
       {% for webmention in webmentions %}
         <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
           <div class="webmention__author p-author h-card">
-            <a class="u-url" href="{{ webmention.author.url }}">
+            <a class="u-url" href="{{ webmention.author.url }}" rel="nofollow">
               <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="" title="{{ webmention.author.name }}">
             </a>
           </div>
@@ -333,6 +333,7 @@
   {% endif %}
 </div></template><template style="display:none" id="webmention-rsvps"><div class="webmentions webmentions--rsvps">
     {% if webmentions.size > 0 %}
+    <h3>Attendees</h3>
     <ol class="webmentions__list">
         {% for webmention in webmentions %}
         <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
@@ -362,7 +363,7 @@
             ">
             {% if webmention.author %}
               <div class="webmention__author p-author h-card">
-                <a class="u-url" href="{{ webmention.author.url }}">
+                <a class="u-url" href="{{ webmention.author.url }}" rel="nofollow">
                   {% if webmention.author.photo %}
                     <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="" title="{{ webmention.author.name }}">
                   {% endif %}
@@ -386,7 +387,7 @@
               {% endif %}
               {% if webmention.pubdate and webmention.url %}|{% endif %}
               {% if webmention.url %}
-                <a class="webmention__source u-url" href="{{ webmention.url }}">Permalink</a>
+                <a class="webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">Permalink</a>
               {% endif %}
             </div>
           </article>
