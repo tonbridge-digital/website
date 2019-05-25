@@ -15,5 +15,7 @@ image:
   creditlink:
 comments: false
 share: true
+webmention: https://tonbridge.digital/articles/may-event/
+calendar: TonbridgeDigital280519.ics
 ---
 Join us for discussion and drinks at **[The Nelson Arms](http://thenelsonarms.com/)** located in 19 Cromer Street, Tonbridge.
