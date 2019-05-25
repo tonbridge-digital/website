@@ -48,7 +48,7 @@
             to <time class="dt-end" datetime="{{ page.e-finish | date: "%m-%d-%Y %R" }}">{{ page.e-finish | date: "%R" }}</time>
             at <span class="p-location">{{ page.location }}</span></strong></p>
             {% if page.calendar %}
-            <p class="p-calendar"><strong><a href="{{ site.url }}/calendar/{{ page.calendar}}">Add to calendar</a> get a link to join our Slack group</strong></p>
+            <p class="p-calendar"><i class="fa fa-calendar-o"></i> <a href="{{ site.url }}/calendar/{{ page.calendar}}">Add to calendar</a> get a link to join our Slack group</p>
             {% endif %}
           <p class="p-summary">{{ page.summary }}</p>
         </div>
