@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Articles
-excerpt: "An archive of articles sorted by date."
+title: Events & posts
+excerpt: "An archive of events and posts sorted by date."
 search_omit: true
 ---
 
