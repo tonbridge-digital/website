@@ -31,7 +31,7 @@ logo: true
   <div class="event-highlight__overview">
   {{ post.content }}
   <p>{% include webmention-info.html %} <strong class="webmention-target">{{ post.webmention }}</strong></p>
-  <p><small>Note responses are checked every 24 hours so your photo may not show here immediately</small></p>
+  <p><small>Note responses are checked automatically every 24 hours so your photo may not show here immediately</small></p>
   </div>
 
   {% webmention_rsvps post.url %}
