@@ -1,7 +1,7 @@
 ---
 layout: event
 title: September Social
-excerpt: "Our next social event will be on September 27th at The Nelson Arms"
+excerpt: "Our next social event will be on September 24th at The Nelson Arms"
 summary: "We'd love to bring together small businesses and individuals throughout Tonbridge looking to chat about all aspects of their digital strategy. Whether you're working in technology, the Web or a complete novice/outsider looking for advice then please come along."
 categories: articles
 modified:
