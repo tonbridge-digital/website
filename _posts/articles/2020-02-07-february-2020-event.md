@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Tonbridge Digital 2020
+title: Tonbridge Digital February 2020
 excerpt: "Our next social event will be on Tuesday February 25th at The Nelson Arms"
 summary: "We'd love to bring together small businesses and individuals throughout Tonbridge looking to chat about all aspects of their digital strategy. Whether you're working in technology, the Web or a complete novice/outsider looking for advice then please come along."
 categories: articles
