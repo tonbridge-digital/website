@@ -9,4 +9,4 @@ image:
   creditlink:
 ---
 
-If you have any enquiries, suggestions or would like to offer assistance running Tonbridge Digital then [email](mailto:tonbridgedigital@yahoo.com) us or [Tweet](https://twitter.com/tonbridigital) us.
+If you have any enquiries, suggestions or would like to offer assistance running Tonbridge Digital then [email](mailto:hi@tonbridge.digital) us or [Tweet](https://twitter.com/tonbridigital) us.

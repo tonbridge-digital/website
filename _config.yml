@@ -38,13 +38,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Calum Ryan
-  avatar: profile_md.jpg
-  email: general@tonbridge.digital
+  name: Tonbridge Digital
+  avatar: twitter.png
+  email: hi@tonbridge.digital
   disqus-shortname:
   twitter: tonbridigital
   facebook: #username
-  github: tonbridgedigital
+  github: tonbridge-digital
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
