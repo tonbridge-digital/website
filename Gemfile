@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "kramdown-parser-gfm"
 gem "bundle"
 gem "jekyll"
 gem "jekyll-sitemap"
