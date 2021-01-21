@@ -1,7 +1,7 @@
 {
   "name": "tonbridgedigital-theme",
-  "author": "Tonbridge Digital <general@tonbridge.digital",
-  "homepage": "http://tonbridge.digital/",
+  "author": "Tonbridge Digital",
+  "homepage": "https://digital.tonbridge.net/",
   "repository": {
     "type": "git",
     "url": "git://github.com/tonbridgedigital/tonbridgedigital.github.io"
