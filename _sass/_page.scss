@@ -325,8 +325,9 @@ span + .entry-title {
 		text-align: center;
 		max-width: 100%;
 	}
-
+	
 	.entry-content {
+		text-align: center;
 		@include span-columns(12);
 	}
 }
